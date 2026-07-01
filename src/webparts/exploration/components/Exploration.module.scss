@@ -1,0 +1,102 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+/* Page background */
+.pageContainer {
+  //width: 100%;
+  min-height: 100vh;
+  padding: 30px;
+  //background: linear-gradient(135deg, #f5f7fa, #eef4fb);
+  //box-sizing: border-box;
+}
+
+/* Form card */
+.formContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Title */
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+}
+.primaryButton:disabled {
+  background-color: #c8c6c4;
+  color: white;
+  cursor: not-allowed;
+}
+/* Inputs */
+.inputField,
+.selectField {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fafafa;
+  transition: all 0.2s ease;
+}
+
+/* Focus effect */
+.inputField:focus,
+.selectField:focus {
+  border-color: #0078d4;
+  background: #ffffff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 120, 212, 0.15);
+}
+
+/* Textarea */
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Button group */
+.buttonGroup {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+/* Save button */
+.primaryButton {
+  flex: 1;
+  background: linear-gradient(90deg, #0078d4, #005a9e);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.primaryButton:hover {
+  background: linear-gradient(90deg, #005a9e, #004578);
+}
+
+/* Cancel button */
+.secondaryButton {
+  flex: 1;
+  background-color: #f3f2f1;
+  border: 1px solid #d0d0d0;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.secondaryButton:hover {
+  background-color: #edebe9;
+}

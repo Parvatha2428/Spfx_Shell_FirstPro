@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "first-project-spfx-client-side-solution",
+    "id": "a3d1e8e9-ace0-42a8-8343-09782ac8e5d9",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FirstProjectSpfx description"
+      },
+      "longDescription": {
+        "default": "FirstProjectSpfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "first-project-spfx Feature",
+        "description": "The feature that activates elements of the first-project-spfx solution.",
+        "id": "1356d19b-47e7-4e70-9395-d9cd579e192b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/first-project-spfx.sppkg"
+  }
+}
