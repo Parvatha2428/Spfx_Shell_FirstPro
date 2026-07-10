@@ -4,7 +4,7 @@ import type { IExplorationProps } from './IExplorationProps';
 import styles from './Exploration.module.scss'; 
 import { PeoplePicker, PrincipalType } from "@pnp/spfx-controls-react/lib/PeoplePicker";
 export default class Exploration extends React.Component<IExplorationProps, any> {
-
+//SESSION
   constructor(props: IExplorationProps) {
     super(props);
 
