@@ -4,7 +4,7 @@ import type { IExplorationProps } from './IExplorationProps';
 import styles from './Exploration.module.scss'; 
 import { PeoplePicker, PrincipalType } from "@pnp/spfx-controls-react/lib/PeoplePicker";
 export default class Exploration extends React.Component<IExplorationProps, any> {
-//SESSION
+//SESSION///
   constructor(props: IExplorationProps) {
     super(props);
 
@@ -147,7 +147,7 @@ const isFormValid =
         value={this.state.count}
         onChange={(e) => this.setState({ count: e.target.value })}
       />
-
+///hi
       <textarea
         className={styles.inputField}
         placeholder="Enter Comments"
